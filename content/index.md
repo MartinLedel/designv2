@@ -1,25 +1,29 @@
 ---
-title: "Min fina titel"
+title: "Me-sidan"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
 Min me-sida i kursen design
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/me-bild.jpg?width=500" class="right" caption="Bild på en sjuk Martin"]
 
 Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+En liten presentation av mig då!
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Heter Martin Ledel och är 25år. 08, born and raised i Hässelbys skogar aka bushen av andra 08or. Hässelby ligger precis utanför Stockholm.
+Gillar i princip allt som har med teknik att göra...och spel! Gillat att pyssla med teknik sen låg ålder. Lösa problem och få saker att funka.
+Jobbat på Clas Ohlson och pluggat enskilda kurser sen jag gick ut ur gymnasiet.
+Ville studera vidare och då jag har en barndomsvän som bor i Karlskrona så blev BTH valet för vidare studier.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Har inte så många hobbys men att pyssla med datorkomponenter, vara tävlingsinriktad i vissa spel, gymma är några saker som jag ofta.

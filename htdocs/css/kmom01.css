@@ -14,3 +14,54 @@
 .rm-navbar-max {
     display: none;
 }
+
+html {
+    background-color: lightgrey;
+}
+
+body {
+    background-color: white;
+}
+
+.wrap-all {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.region-header-col-1 {
+    display: none;
+}
+/* Style the footer */
+.outer-wrap-footer {
+    background-color: grey;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.inner-wrap {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+}
+
+.region-footer {
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+
+.footer-column-wrapper {
+    border-bottom: 1px solid black;
+    padding-bottom: 24px;
+    margin-bottom: 48px;
+}
+
+.footer-column {
+    height: 100%;
+}
+
+.footer-column-x {
+    padding-bottom: 24px;
+    padding-right: 1em;
+}
