@@ -1,0 +1,270 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #424242;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color: #fff;
+  font: 100.01%/1 serif;
+}
+div {
+  display: block;
+}
+img {
+  max-width: 100%;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+@media screen and (max-width: 1700px) {
+  .site-logo img {
+    width: 150px;
+  }
+}
+/**
+ * General layout
+ */
+.rm-navbar {
+  position: relative;
+}
+.rm-desktop li .rm-submenu-button {
+  display: none;
+}
+.rm-desktop li a {
+  color: inherit;
+  background-color: inherit;
+}
+.rm-default a {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 1em;
+  outline: 0;
+}
+.rm-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul,
+menu,
+dir {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.inner-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.outer-wrap-header {
+  background-color: beige;
+}
+.inner-wrap-header {
+  max-width: 100%;
+}
+.info {
+  border: 2px solid #92cae4;
+  color: #205791;
+  background: #d5edf8;
+}
+.info,
+.warning {
+  padding: 0.5em;
+  margin-bottom: 20px;
+}
+.flashmessage-icon {
+  float: right;
+  font-size: 3em;
+  padding-right: 0.5em;
+}
+.region-header-col-1 {
+  width: 30%;
+  float: left;
+}
+.region-header-col-2 {
+  width: 60%;
+  float: left;
+}
+.region-header-col-3 {
+  width: 10%;
+  float: left;
+}
+.site-logo-text {
+  font-size: 42px;
+  line-height: 1;
+  text-shadow: 2px -2px 2px #ccc;
+  font-family: serif;
+}
+.site-logo {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+.region-main {
+  background-color: lightgrey;
+}
+.region-sidebar-right,
+.region-sidebar-left {
+  padding: 5px;
+  border: 1px solid black;
+}
+.region-main {
+  float: left;
+  padding: 5px;
+}
+.region-main.has-sidebar {
+  width: 65%;
+  margin-left: 0;
+}
+.region-main.has-sidebar-left.has-sidebar-right {
+  width: 55%;
+}
+.region-sidebar-right,
+.region-sidebar-left {
+  width: 30%;
+  float: left;
+}
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+  width: 20%;
+}
+.route- .article {
+  margin-bottom: 0;
+}
+.author-byline {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding: 0.5em;
+}
+.author-byline::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 8px;
+}
+/* Footer Layout */
+.outer-wrap-footer {
+  background-color: grey;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  overflow: auto;
+}
+.inner-wrap-footer {
+  color: white;
+}
+.row {
+  display: block;
+}
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.region-footer {
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+.footer-column-wrapper {
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 24px;
+  margin-bottom: 48px;
+}
+.footer-column {
+  height: 100%;
+}
+.footer-column-1,
+.footer-column-2 {
+  border-bottom: 1px solid white;
+}
+.footer-column-x {
+  padding-bottom: 24px;
+  padding-right: 1em;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */
