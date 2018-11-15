@@ -8,6 +8,22 @@ views:
             meta:
                 type: single
                 route: block/byline
+
+    redovisa:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-redovisa
+
+    kursrepo:
+        region: sidebar-left
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-kursrepo
 ---
 Lek lite med Markdown
 ==========================

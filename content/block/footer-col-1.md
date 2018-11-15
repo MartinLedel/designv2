@@ -1,3 +1,3 @@
-#### Footer col 1
+#### Footer
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Litet arbete inom en design kurs på BTH

@@ -1,3 +1,6 @@
-#### Footer col 3
+#### KMOM
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+kmom som man jobbat igenom:
+
+*   [kmom01](https://dbwebb.se/kurser/design-v2#kmom01)
+*   [kmom02](https://dbwebb.se/kurser/design-v2#kmom02)

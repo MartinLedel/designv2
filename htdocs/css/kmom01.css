@@ -15,13 +15,21 @@
     display: none;
 }
 
-html {
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+/* html {
     background-color: lightgrey;
 }
 
 body {
     background-color: white;
-}
+} */
 
 .wrap-all {
     width: 800px;
@@ -42,6 +50,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     max-width: 800px;
+
 }
 
 .region-footer {
@@ -64,4 +73,14 @@ body {
 .footer-column-x {
     padding-bottom: 24px;
     padding-right: 1em;
+}
+
+.row {
+    display: block;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
 }
