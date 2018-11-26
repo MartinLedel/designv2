@@ -4371,12 +4371,17 @@ img {
 .rm-navbar {
   position: relative;
 }
+.rm-desktop li {
+  position: relative;
+  background-color: beige;
+  display: inline-block;
+}
 .rm-desktop li .rm-submenu-button {
   display: none;
 }
 .rm-desktop li a {
   color: inherit;
-  background-color: inherit;
+  background-color: beige;
 }
 .rm-default a {
   display: block;
@@ -4477,8 +4482,38 @@ dir {
 .region-sidebar-right.has-sidebar-left {
   width: 20%;
 }
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 8px;
+}
+figure.figure {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+figure.figure figcaption {
+  padding-top: 12px;
+  display: table-caption;
+  caption-side: bottom;
+}
+img {
+  max-width: 100%;
+}
 .route- .article {
   margin-bottom: 0;
+}
+.article::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 .author-byline {
   border: 1px solid black;

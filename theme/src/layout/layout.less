@@ -20,13 +20,20 @@
  position: relative;
 }
 
+.rm-desktop li {
+    position: relative;
+    background-color: @bgColorHeader;
+    display: inline-block;
+}
+
 .rm-desktop li .rm-submenu-button {
  display: none;
 }
 .rm-desktop li a {
  color: inherit;
- background-color: inherit;
+ background-color: @bgColorHeader;
 }
+
 .rm-default a {
  display: block;
  text-decoration: none;
@@ -67,7 +74,7 @@ ul, menu, dir {
 }
 
 .outer-wrap-header {
-    background-color: beige;
+    background-color: @bgColorHeader;
 }
 
 .inner-wrap-header {
@@ -157,18 +164,44 @@ ul, menu, dir {
 }
 
 // Layout main
-// figure.figure.right {
-//     float: right;
-//     margin-left: 8px;
-//     clear: both;
-//     img {
-//         width: 500px;
-//         height: 600px;
-//     }
-// }
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+figure.figure.right {
+    float: right;
+    margin-left: 8px;
+}
+
+figure.figure {
+    display: table;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+figure.figure figcaption {
+    padding-top: 12px;
+    display: table-caption;
+    caption-side: bottom;
+}
+
+img {
+    max-width: 100%;
+}
 
 .route- .article {
     margin-bottom: 0;
+}
+
+.article::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 // Byline Layout
