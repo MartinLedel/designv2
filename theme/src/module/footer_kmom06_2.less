@@ -1,0 +1,71 @@
+/**
+ * Layout using vgrid.
+ */
+ /**
+
+ /**
+  * Variables
+  */
+
+ /**
+  * General layout
+  */
+
+ /* Footer Layout */
+ .outer-wrap-footer {
+     color: @textColor
+     //padding-top: 24px;
+     //padding-bottom: 48px;
+     //overflow: auto;
+ }
+
+ .inner-wrap-footer {
+     padding-top: 1em;
+     padding-bottom: 10vh;
+ }
+
+ .row {
+     display: block;
+ }
+
+ .row::after {
+     // content: "";
+     // display: block;
+     // clear: both;
+ }
+
+ .region-footer {
+     display: inline;
+     background-color: @headerColor;
+     box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.4);
+     #desinax-vgrid.column(20);
+     #desinax-vgrid.push(2);
+     //float left;
+     //width: 100%;
+     //padding: 5px;
+ }
+
+ .footer-column-wrapper {
+     // border-bottom: 1px solid #666;
+     //padding-bottom: 24px;
+     //margin-bottom: 48px;
+ }
+
+ .footer-column {
+     #desinax-vgrid.column(18 / 3);
+     height: 100%;
+ }
+
+ .footer-column-1, .footer-column-2, .footer-column-3 {
+     border-right: 1px solid #666;
+     padding-left: 1em;
+ }
+
+ .footer-column-x {
+     // padding-bottom: 24px;
+     // padding-right: 1em;
+ }
+
+ .site-footer {
+     #desinax-vgrid.column(18);
+ }

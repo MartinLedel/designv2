@@ -109,11 +109,11 @@ figure.figure-codepen {
 }
 
  // Layout flash warning
- .info {
-     //border: 2px solid #92cae4;
-     color: @textColor;
-     background: rgba(255, 255, 255, 0.4);
- }
+.info {
+    //border: 2px solid #92cae4;
+    color: @textColor;
+    background: @headerColor;
+}
 
  .info, .warning {
      //padding: .5em;
@@ -128,10 +128,9 @@ figure.figure-codepen {
 
  .region-main {
      //background-color: lightgrey;
-     background-color: rgba(255, 255, 255, 0.4);
-     box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.2);
+     background-color: @headerColor;
+     box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.4);
      padding: 1em;
-
  }
 
  .region-sidebar-right,
@@ -254,6 +253,12 @@ figure.figure-codepen {
         #desinax-vgrid.push(0);
      //width: 55%;
     }
+}
+
+.divider {
+    height: 0.2rem;
+    margin: 0 0 1.9rem;
+    background-color: #666;
 }
 
  // Layout main

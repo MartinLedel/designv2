@@ -5226,7 +5226,7 @@ figure.figure-codepen {
 }
 .info {
   color: #000000;
-  background: #e8ac0c;
+  background: rgba(255, 255, 255, 0.4);
 }
 .region-main {
   background-color: rgba(255, 255, 255, 0.4);

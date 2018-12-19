@@ -1,7 +1,7 @@
-Rapport 4: Tema med Designelement
+Rapport 4: Tema med Designprinciperna
 =======================
 
-Valde ett ljust tema baserat på havet. Använde då en ljus blå färg som hade transparanta element till min header och footer. Tyckte det passade in med min bakgrund så då var en heltäckande bild på ett hav. Min main var då en vit transperant färg med en skuggning som gav den mer djup. H1 headern fick en italic style för att visa att headern är viktig. Headers har också en linje som visar att här börjar text men också att "boxa" in innehållet för att få en mer hiearki som t.e.x min footer.
+Mitt tema blev ett simpelt med mycket konstrast mellan svart och vit med ett djup p.g.a skuggorna. Satsade på att så mycket som helst skulle ha bra symmetri. Använde lite hierki att visa men en bred header på toppen, Störra font storlekar på H1or och avsluta med en mindre footer som inte täcker hela bredden.  
 
 Referenser
 -----------------------
